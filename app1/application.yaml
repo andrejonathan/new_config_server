@@ -1,0 +1,66 @@
+ivrservices-lookup:
+  keyStoreType: JKS
+  trustStore: file:/shared/dev/ssl/new.jks
+  trustStorePassword: Password1
+  keyStore: file:/shared/dev/ssl/new.jks
+
+cif:
+  codes:
+    I: Individual
+    J: Joint
+    S: Sole Trader
+    B: Business
+
+  titles:
+    0:
+    1: Mr
+    10: Genl
+    11: Brig
+    12: Capt
+    13: Chief
+    14: Brig-Gen
+    15: Sir
+    16: Lady
+    18: Par Chef
+    19: Lord
+    2: Mrs
+    20: Advocate
+    21: Ms
+    22: Judge
+    23: Rabbi
+    24: Ins Est
+    25: Pastor
+    26: Sergent
+    27: Constable
+    28: Father
+    29: Lt
+    3: Miss
+    30: Sister
+    31: Eerwaarde
+    33: Admiral
+    34: Maj Gen
+    35: Lt Gen
+    36: Lt Col
+    37: Minister
+    38: Pres
+    39: The Hon
+    4: Prof
+    40: WO
+    41: Comm
+    42: Insp
+    43: Supt
+    44: Dir
+    45: Serg Maj
+    5: Dr
+    6: Rev
+    8: Major
+    9: Col
+
+logging:
+  level:
+    springfox.documentation: WARN
+    b.pi.bison: DEBUG
+    za.co.absa.voice: DEBUG
+
+server:
+  port: 8081
