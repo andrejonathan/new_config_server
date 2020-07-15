@@ -1,7 +1,7 @@
 ivrservices-lookup:
   keyStoreType: JKS
   trustStore: file:/shared/dev/ssl/new.jks
-  trustStorePassword: Password1
+  trustStorePassword: wingwangfoonoonoo
   keyStore: file:/shared/dev/ssl/new.jks
 
 cif:
